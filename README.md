@@ -1,4 +1,4 @@
-# Fashion Attribute Prediction - Kaggle Competition sponsored by Meesho 🕴️👗
+# Fashion Attribute Prediction - Kaggle Competition sponsored by Meesho 
 
 ## Competition Overview
 - **Sponsor**: Meesho
