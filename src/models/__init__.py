@@ -30,11 +30,11 @@ from src.models import (
     Women_Tops_Model
 )
 
-# Configure warnings and logging
+# Configuring warnings and logging
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-# Set random seeds for reproducibility
+# Setting random seeds for reproducibility
 def set_seed(seed=42):
     """
     Set random seeds for reproducibility across libraries.
@@ -49,6 +49,3 @@ def set_seed(seed=42):
 
 # Initialize seed on import
 set_seed()
-
-# Expose package version
-__version__ = "0.1.0"
