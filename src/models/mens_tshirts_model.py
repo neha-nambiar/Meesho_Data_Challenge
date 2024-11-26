@@ -1,5 +1,6 @@
 from src.models.base_model import BaseFashionModel
 
+
 class Men_Tshirts_Model(BaseFashionModel):
     def __init__(self):
         """
