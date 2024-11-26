@@ -9,7 +9,7 @@ from models.womens_tshirts_model import Women_Tshirts_Model
 from models.womens_tops_model import Women_Tops_Model
 
 
-# pipeline.py
+
 class UnifiedFashionModelPipeline:
     def __init__(self):
         """
