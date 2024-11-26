@@ -54,36 +54,6 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -e .
 ```
 
-### Downloading Kaggle Dataset
-
-#### Method 1: Using Kaggle API (Recommended)
-
-1. Install Kaggle API:
-```bash
-pip install kaggle
-```
-
-2. Set up Kaggle API credentials:
-   - Go to your Kaggle account settings
-   - Create a new API token
-   - Save the `kaggle.json` file to `~/.kaggle/kaggle.json` (Linux/Mac) or `C:\Users\<Windows-username>\.kaggle\kaggle.json` (Windows)
-   - Set proper file permissions: `chmod 600 ~/.kaggle/kaggle.json`
-
-3. Download the competition dataset:
-```bash
-kaggle competitions download -c visual-taxonomy
-unzip visual-taxonomy.zip -d data/
-```
-
-#### Method 2: Manual Download
-
-1. Visit the [Kaggle Competition Page](https://www.kaggle.com/competitions/visual-taxonomy/)
-2. Log in to Kaggle
-3. Go to the "Data" tab
-4. Download all competition data files
-5. Create a `data/` directory in the project root
-6. Extract downloaded files into the `data/` directory
-
 ## 🧠 Project Structure
 ```
 Meesho_Data_Challenge/
