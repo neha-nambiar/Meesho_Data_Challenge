@@ -9,7 +9,7 @@ import numpy as np
 from tqdm import tqdm
 
 
-# feature_extraction.py
+
 class FeatureExtractor:
     def __init__(self, model_name: str, device: str = None):
         """
