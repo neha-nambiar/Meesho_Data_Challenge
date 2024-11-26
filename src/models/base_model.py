@@ -12,7 +12,7 @@ from catboost import CatBoostClassifier, Pool
 from sklearn.utils.class_weight import compute_class_weight
 
 
-# base_model.py
+
 class BaseFashionModel:
     def __init__(self, num_attributes: int, attr_names: Optional[List[str]] = None):
         self.attribute_models = {}
