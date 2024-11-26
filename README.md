@@ -1,12 +1,12 @@
 # Fashion Attribute Prediction - Kaggle Competition sponsored by Meesho 
 
-## Competition Overview
+## 🎯 Competition Overview
 - **Sponsor**: Meesho
 - **Goal**: Predict product attributes from fashion images
 - **Challenge**: Accurately classify attributes like color, pattern, and sleeve length using only product images
 - **Final Ranking**: 27th on the leaderboard
 
-## Dataset Details
+## 📊 Dataset Details
 - **Categories**: 5 fashion categories
 - **Data Files**:
   - `category_attributes.parquet`: Contains attribute names for each category
