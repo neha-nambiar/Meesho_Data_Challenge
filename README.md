@@ -1,4 +1,4 @@
-# Fashion Attribute Prediction - Kaggle Competition sponsored by Meesho 
+# <div align="center"> Visual Taxonomy - Kaggle Competition sponsored by Meesho </div>
 
 ## 🎯 Competition Overview
 - **Sponsor**: Meesho
