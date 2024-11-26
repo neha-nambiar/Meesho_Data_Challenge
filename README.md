@@ -39,8 +39,8 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/fashion-attribute-prediction.git
-cd fashion-attribute-prediction
+git clone https://github.com/neha-nambiar/Meesho_Data_Challenge.git
+cd Meesho_Data_Challenge
 ```
 
 2. Set up a virtual environment:
@@ -86,7 +86,7 @@ unzip visual-taxonomy.zip -d data/
 
 ## 🧠 Project Structure
 ```
-fashion-attribute-prediction/
+Meesho_Data_Challenge/
 │
 ├── src/
 │   ├── __init__.py
