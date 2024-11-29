@@ -21,14 +21,13 @@ from src.feature_extraction import (
 )
 from src.data_preprocessing import Imputer
 from src.pipeline import UnifiedFashionModelPipeline
-from src.models import (
-    BaseFashionModel, 
-    Men_Tshirts_Model, 
-    Sarees_Model, 
-    Kurtis_Model,
-    Women_Tshirts_Model, 
-    Women_Tops_Model
-)
+
+from .base_model import BaseFashionModel
+from .mens_tshirts_model import Men_Tshirts_Model
+from .sarees_model import Sarees_Model
+from .kurtis_model import Kurtis_Model
+from .womens_tshirts_model import Women_Tshirts_Model
+from .womens_tops_model import Women_Tops_Model
 
 # Configuring warnings and logging
 warnings.filterwarnings("ignore", category=UserWarning)
