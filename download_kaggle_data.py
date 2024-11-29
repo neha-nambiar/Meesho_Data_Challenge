@@ -16,7 +16,7 @@ def main():
     args = parser.parse_args()
 
     # Paths
-    data_dir = "data"
+    data_dir = "data/visual-taxonomy"
     train_images_dir = os.path.join(data_dir, "train_images")
     test_images_dir = os.path.join(data_dir, "test_images")
     train_csv = os.path.join(data_dir, "train.csv")
