@@ -15,13 +15,6 @@ import torch
 import tensorflow as tf
 
 # Key modules to expose
-from src.feature_extraction import (
-    FeatureExtractor, 
-    UnifiedFeatureExtractor
-)
-from src.data_preprocessing import Imputer
-from src.pipeline import UnifiedFashionModelPipeline
-
 from .base_model import BaseFashionModel
 from .mens_tshirts_model import Men_Tshirts_Model
 from .sarees_model import Sarees_Model
