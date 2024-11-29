@@ -2,11 +2,11 @@ import gc
 import torch
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
-from models.mens_tshirts_model import Men_Tshirts_Model
-from models.sarees_model import Sarees_Model
-from models.kurtis_model import Kurtis_Model
-from models.womens_tshirts_model import Women_Tshirts_Model
-from models.womens_tops_model import Women_Tops_Model
+from src.models.mens_tshirts_model import Men_Tshirts_Model
+from src.models.sarees_model import Sarees_Model
+from src.models.kurtis_model import Kurtis_Model
+from src.models.womens_tshirts_model import Women_Tshirts_Model
+from src.models.womens_tops_model import Women_Tops_Model
 
 
 
