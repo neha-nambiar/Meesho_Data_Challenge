@@ -1,7 +1,6 @@
 # <div align="center"> Visual Taxonomy - Kaggle Competition sponsored by Meesho </div>
 
 ## 🎯 Competition Overview
-- **Sponsor**: Meesho
 - **Goal**: Predict product attributes from fashion images
 - **Challenge**: Accurately classify attributes like color, pattern, and sleeve length using only product images
 - **Final Ranking**: 27th on the leaderboard
@@ -15,12 +14,12 @@
   - `sample_submission.csv`: Submission template
 - **Image Data**: Images stored as `{product_id}.jpg` in the `images/` folder
 
-##  Technical Stack
+## 🛠️ Technical Stack
 
-Deep Learning Models: ResNet101V2, EfficientNetB0, ConvNeXt Base
-ML Framework: CatBoost with category-specific models
-Preprocessing: SMOTE, SMOTETomek, Class Weight Balancing
-Libraries: PyTorch, TensorFlow, scikit-learn, TIMM
+- **Deep Learning Models**: ResNet101V2, EfficientNetB0, ConvNeXt Base
+- **ML Framework**: CatBoost with category-specific models
+- **Preprocessing**: SMOTE, SMOTETomek, Class Weight Balancing
+- **Libraries**: PyTorch, TensorFlow, scikit-learn, TIMM
 
 ### Feature Extraction
 - Multi-model approach using:
