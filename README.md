@@ -15,7 +15,12 @@
   - `sample_submission.csv`: Submission template
 - **Image Data**: Images stored as `{product_id}.jpg` in the `images/` folder
 
-## 🚀 Solution Highlights
+##  Technical Stack
+
+Deep Learning Models: ResNet101V2, EfficientNetB0, ConvNeXt Base
+ML Framework: CatBoost with category-specific models
+Preprocessing: SMOTE, SMOTETomek, Class Weight Balancing
+Libraries: PyTorch, TensorFlow, scikit-learn, TIMM
 
 ### Feature Extraction
 - Multi-model approach using:
