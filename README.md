@@ -33,31 +33,14 @@
 - CatBoost classification
 - Adaptive training strategies
 
-## 🔧 Setup
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/neha-nambiar/Meesho_Data_Challenge.git
-cd Meesho_Data_Challenge
-```
-
-2. Set up a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-```
-
-3. Install dependencies:
-```bash
-pip install -e .
-```
 
 ## 🧠 Project Structure
 ```
 Meesho_Data_Challenge/
 │
+├── notebooks/
+│   ├── data-exploration.ipynb
+│   ├── model-training-demo.ipynb
 ├── src/
 │   ├── __init__.py
 │   ├── feature_extraction.py
@@ -72,23 +55,8 @@ Meesho_Data_Challenge/
 │   │   └── womens_tops_model.py
 │   └── pipeline.py
 │
-├── setup.py
+├── download_kaggle_data.py
+├── main.py
+├── requirements.txt
 └── README.md
 ```
-
-### Training the Model
-
-```bash
-python -m src.pipeline
-```
-
-### Making Predictions
-
-```bash
-python -m src.pipeline --mode predict
-```
-
-## 🏆 Acknowledgements
-- Meesho for sponsoring the competition
-- Kaggle for hosting the challenge
-- Open-source libraries: PyTorch, TensorFlow, CatBoost
